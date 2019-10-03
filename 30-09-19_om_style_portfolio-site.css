@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a, h1, h3{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+p, li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+h3{
+    text-decoration: underline;
+    margin-bottom: 6px;
+}
+body{
+    background-image: url(../Komponenter/3.jpg);
+    background-size: cover;
+}
+.link{
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.nuvaerende-side{
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.link:hover{
+    color: rosybrown;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    /* background-color: rosybrown; */
+    height: 3%;
+
+}
+.logo img{
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.container nav{
+    padding-top: 1%;
+    /* font-size: 20px; */
+}
+h1{
+    font-size:50px;
+    text-align: center;
+    color: #6d5252;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.venstre, .hoojre{
+    /*width: 35%;*/
+    margin: 2% 4%;
+   
+}
+.venstre-top{
+    margin-bottom: 6%;
+}
+.hoojre-top{  
+    margin-bottom: 20%;
+}
+.midten{
+    margin-top: 6%;
+    /*width:250px;
+    */
+}
+.image-mig{
+    /*height: 40%;*/
+    width: 250px
+    
+}
+.some{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.icon{
+    
+    width: 30px; 
+    padding: 20px;
+    }

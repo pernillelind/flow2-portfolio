@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a, h1{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+body{
+    background-image: url(../Komponenter/3.jpg);
+    background-size: cover;
+}
+.link{
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.nuvaerende-side{
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.link:hover{
+    color: rosybrown;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    /* background-color: rosybrown; */
+    height: 3%;
+}
+.logo img{
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.container nav{
+    padding-top: 1%;
+    /* font-size: 20px; */
+}
+section .one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: #6d5252;
+    margin: 15px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.link-knapper{
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 4px;
+    color: #6d5252;
+    
+}
+.knapper{
+   text-align: center;
+}
+
+.nuvaerende-knapside{
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.link-knapper:hover{
+    color: rosybrown;
+    
+}
+.projekter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.projekter img{
+    width: 310px;
+    margin:2px;
+}
+
+.infotext{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content:center;
+    width: 310px;
+    height: auto;
+    background: rgba(00, 00, 00, 0.5);
+    color: white;
+    font-size:1.2em;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.infobox:hover .infotext{
+    opacity: 1;
+    visibility: visible;
+}
+.some{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.icon{
+    
+    width: 30px; 
+    padding: 20px;
+    }
+
+
+/* proj-bygdin-portfolio-site kommer herunder*/
+
+
+/* 
+width: 310px;
+    margin:2px;.content{
+ display: flex;
+    justify-content: center;
+} 
+.content div h1{
+    align-content: center;
+    border: 1 solid grey;
+}    
+.projekter{
+    float: ;
+   
+}
+.img-prj-bygdin{
+    width: 50%; */
+
+p, .a-minfoerste{
+    color: #6d5252;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+a:hover{
+    color: rosybrown;
+}
+.h1-projekt{
+   text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.om_projekt{
+    width: 60%;
+    float: left;
+    display: inline;
+    
+}
+.textbox{
+   margin-top: 10%;
+   margin-left: 15%;
+    
+}
+.projekterne{
+    width:100%;
+    float: right;
+    display: inline;
+}
+
+.img-proj-bygdin{
+   width: 70%;
+    margin: 2% 10% 2% 2%;
+    float: right;
+} 
+.img-xd-portfolio{
+    width: 75%;
+    margin: 2% 10% 2% 2%;
+    float: right;
+}
+/* proj-xd-portfolio-site kommer herunder*/
+
+
+
+
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    
+}
+body{
+    background-image: url(../Komponenter/3.jpg);
+    background-size: cover;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+        ".    .       logo  logo   .     ."
+        ".    .      nav   nav     .     . "
+        "image image image image  image  image"
+        ".    .       some  some   .     . ";
+    grid-gap: 0em;
+    padding:0em;
+}
+section{
+    display: flex; 
+}
+.grid-item{
+/*    background:lightpink;*/
+    padding: 0px;
+}
+
+.one{
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    width: 70%;
+    justify-content: center;
+    padding: 0px;
+}
+.two{
+    grid-area: nav;
+    display: flex; 
+    font-size:20px;
+    color: rosybrown;
+    justify-content: center;
+    border-top: 2px solid rosybrown;
+    border-bottom: 2px solid rosybrown;
+    width: 500px;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav{
+    display:flex;
+    margin: 0px;
+    padding: 10px;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.link{
+    text-decoration: none;
+    color: rosybrown;
+}
+.nuvaerende-side{
+    color: #6d5252;
+}
+
+.two a:hover{
+    color: #6d5252;
+}
+
+.tree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    grid-area: image;
+    margin-top: 25px;
+   
+}
+.tree img{
+    width: 33.333333333%;
+}
+
+.four{
+    grid-area: some;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    width: 30px; 
+    padding: 20px;
+    }
+@media screen and (max-width:700px){
+    .tree img{width:100%;}
+}
+/*.iconhover{
+    background: rgba(00, 00, 00, 0.5);
+    display: hidden;
+    opacity: 1;
+    transition: opacity 2s;
+    }
+.iconhover:hover{
+    visibility: visible;
+    opacity: 1;
+}*/
+
+

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a, h1, h3, .one-line{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+body{
+    background-image: url(../Komponenter/3.jpg);
+    background-size: cover;
+}
+.link{
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.nuvaerende-side{
+    padding: 15px;
+    margin-top: 5px;
+    color: #6d5252;
+}
+.link:hover{
+    color: rosybrown;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    /* background-color: rosybrown; */
+    height: 3%;
+}
+.logo img{
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+    
+}
+.container nav{
+    padding-top: 1%;
+    /* font-size: 20px; */
+}
+
+.content{
+    /* background-color: rosybrown; */
+    width: 40%;
+    padding: 20px;
+    margin:0% 30% 30% 30%;
+    border-top: 1 solid rosybrown;
+    border-bottom: 1 solid rosybrown;
+  
+}
+input, textarea, .send{
+    background-color: rosybrown;
+    
+}
+input{
+    height: 20px;
+}
+
+.contact-txt {
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #6d5252;
+    
+}
+h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #6d5252;
+    font-weight: bolder;
+}
+.one-line{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding: 3px;
+    color: #6d5252;
+    
+}
+
+.send{
+    color: #6d5252;
+    border: 1px solid #6d5252;
+    border-radius: 5px;
+    margin:5px 100px 0px 5px; 
+    padding: 1px 3px;
+    width 100%;
+    float: right;
+    text-decoration: none;  
+}
+
+.send:hover{
+    color: rosybrown;
+}
+
+.some{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    width: 40px; 
+    padding: 5px 20px;
+    align-content: center;
+    }
